@@ -69,7 +69,8 @@ http://www.tooplate.com/view/2077-modern-town
 			<ul class="nav navbar-nav navbar-right main-navigation">
                 
 				<li><a href="#home" class="smoothScroll">Главная</a></li>
-				<li><a href="#battarey" class="smoothScroll">Батарейки</a></li>
+				<li><a href="#one" class="smoothScroll">1 отряд</a></li>
+				<li><a href="#two" class="smoothScroll">2 отряд</a></li>
                 <!-- <li><a href="#testimonial" class="smoothScroll">TESTIMONIALS</a></li> -->
 				<!-- <li><a href="#blog" class="smoothScroll">BLOG</a></li> -->
 				<!-- <li><a href="#contact" class="smoothScroll">CONTACT</a></li> -->
@@ -123,11 +124,11 @@ http://www.tooplate.com/view/2077-modern-town
 
   <!--Шапка-->
   <header>
-    <div class="container"></div>
+    <div class="container" align="center"></div>
   </header>
   <!--Основной блок-->
   <main>
-    <div class="container" id="battarey">
+    <div class="container" id="one">
       <!--Ряд, блок с классом row-->
 
       <div class="row">
@@ -142,34 +143,52 @@ http://www.tooplate.com/view/2077-modern-town
 							  <td align="center">Энергия</td> <td align="center" >Описание</td> <td align="center">Дата</td> 
 							</tr>
 						</thead>
-						<tbody>
-							<tr style="color:green;">
-							  <td align="center">2</td> <td align="center"> Тут будет описание события,во время которого,отряд получил 2 единицы энергии </td> <td align="center">1.07</td> 
+						<tbody style="color:green;">
+							
+							<tr class=" wow fadeInLeft" data-wow-delay="0.1s"> <td align="center">2</td> <td align="center"> Тут будет описание события,во время которого,отряд получил 2 единицы энергии </td> <td align="center">1.07</td> </tr>
+							<tr class=" wow fadeInLeft" data-wow-delay="0.2s"> <td align="center">3</td> <td align="center"> тут будет описание события,во время которого,отряд получил 3 единицы энергии </td> <td align="center">10.07</td> </tr>
+							<tr class=" wow fadeInLeft" data-wow-delay="0.3s"> <td align="center">2</td> <td align="center"> тут будет описание события,во время которого,отряд получил 2 единицы энергии </td> <td align="center">12.07</td> </tr>
+							<tr class=" wow fadeInLeft" data-wow-delay="0.4s"> <td align="center">5</td> <td align="center"> тут будет описание события,во время которого,отряд получил 5 единицы энергии </td> <td align="center">15.07</td> </tr>
+							
+						</tbody>
+						</table>
+						<table align="center" class="table">
+						<thead>	
+							<tr>
+							  <td align="center">Стоимость</td> <td align="center" >Покупки</td> <td align="center">Дата</td> 
 							</tr>
-                            <tr style="color:red;"> 
-							  <td align="center">-1</td> <td align="center"> А здесь будет написано, на что отряд потратил 1 единицу энергии</td> <td align="center">5.07</td> 
-							</tr>
-                            <tr style="color:green;"> 
-							  <td align="center">3</td> <td align="center"> тут будет описание события,во время которого,отряд получил 3 единицы энергии </td> <td align="center">10.07</td> 
-							</tr>
+						</thead>
+						<tbody style="color:red;">
+						
+						
+						
+							<tr class=" wow fadeInLeft" data-wow-delay="0.5s"> <td align="center">-1</td> <td align="center"> А здесь будет написано, на что отряд потратил 1 единицу энергии</td> <td align="center">5.07</td> </tr>
+							<tr class=" wow fadeInLeft" data-wow-delay="0.6s"> <td align="center">-2</td> <td align="center"> А здесь будет написано, на что отряд потратил 2 единицу энергии. Этот текст добавлен для того, что бы увидеть, как отображается длинный текст в описании</td> <td align="center">16.07</td> </tr>
+							<tr class=" wow fadeInLeft" data-wow-delay="0.7s"> <td align="center">-1</td> <td align="center"> А здесь будет написано, на что отряд потратил 1 единицу энергии</td> <td align="center">19.07</td> </tr>
+							
+							
+							
+							
 						</tbody>
 					</table>
                 </b>
         </article>
         <!--Адаптивный блок aside-->
-        <aside class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+        <aside class="col-xs-12 col-sm-12 col-md-4 col-lg-3" align="center">
           <!--Ряд, блок с классом row-->
           <div class="row">
             <!--Адаптивный блок 1-->
-            <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12"><img src="IMG/battery/energy4.jpg" width="400" alt="на этом месте должна быть картинка батарейки, но что то пошло не так =( "></div>
+            <div class="col-md-3 col-sm-3 counter-item" align="center">
+			<b><span class="counter-text" align="center">Итог:</span></b>
+				 <h4 class="counter-number" style="color:#3FAAF7;"  data-from="1" data-to="8" data-speed="1200" align="center"></h4> 
+				 <b><span class="counter-text" align="center">Энергии</span></b>	
+               </div>
             <!--Адаптивный блок 2-->
             
             <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
-					 <div class="col-md-3 col-sm-3 counter-item">
-				 <h4 class="counter-number" style="color:#3FAAF7;"  data-from="1" data-to="4" data-speed="1200" align="right"></h4> 
-				 <b><span class="counter-text" align="right">Энергии</span></b>
-                    
-               </div>
+			   <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+			<img src="IMG/battery/energy8.jpg" width="400" alt="на этом месте должна быть картинка батарейки, но что то пошло не так =( ">
+			</div>
              </div>
           </div>
         </aside>        
@@ -180,7 +199,75 @@ http://www.tooplate.com/view/2077-modern-town
   <footer>
     <div class="container"></div>
   </footer>
+  
+  <!--Шапка-->
+  <header>
+    <div class="container" align="center"></div>
+  </header>
+  <!--Основной блок-->
+  <main>
+    <div class="container" id="two">
+      <!--Ряд, блок с классом row-->
 
+      <div class="row">
+<h3 align="center"><big>2 отряд</big></h3>
+        <!--Адаптивный блок article-->
+        <article class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
+				
+                <b>
+					<table align="center" class="table">
+						<thead>					
+							<tr>
+							  <td align="center">Энергия</td> <td align="center" >Описание</td> <td align="center">Дата</td> 
+							</tr>
+						</thead>
+						<tbody style="color:green;">
+							
+							 <tr class=" wow fadeInLeft" data-wow-delay="0.1s"> <td align="center">2</td> <td align="center"> Тут будет описание события,во время которого,отряд получил 2 единицы энергии </td> <td align="center">1.07</td> </tr>
+							 <tr class=" wow fadeInLeft" data-wow-delay="0.2s"> <td align="center">3</td> <td align="center"> тут будет описание события,во время которого,отряд получил 3 единицы энергии </td> <td align="center">10.07</td> </tr>
+							
+						</tbody>
+						</table>
+						<table align="center" class="table">
+						<thead>	
+							<tr>
+							  <td align="center">Стоимость</td> <td align="center" >Покупки</td> <td align="center">Дата</td> 
+							</tr>
+						</thead>
+						<tbody style="color:red;">
+						
+							 <tr class=" wow fadeInLeft" data-wow-delay="0.3s">  <td align="center">-1</td> <td align="center"> А здесь будет написано, на что отряд потратил 1 единицу энергии</td> <td align="center">5.07</td> </tr>
+							
+						</tbody>
+					</table>
+                </b>
+        </article>
+        <!--Адаптивный блок aside-->
+        <aside class="col-xs-12 col-sm-12 col-md-4 col-lg-3" align="center">
+          <!--Ряд, блок с классом row-->
+          <div class="row">
+            <!--Адаптивный блок 1-->
+            <div class="col-md-3 col-sm-3 counter-item" align="center">
+			<b><span class="counter-text" align="center">Итог:</span></b>
+				 <h4 class="counter-number" style="color:#3FAAF7;"  data-from="1" data-to="4" data-speed="1200" align="center"></h4> 
+				 <b><span class="counter-text" align="center">Энергии</span></b>	
+               </div>
+            <!--Адаптивный блок 2-->
+            
+            <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+			   <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+			<img src="IMG/battery/energy4.jpg" width="400" alt="на этом месте должна быть картинка батарейки, но что то пошло не так =( ">
+			</div>
+             </div>
+          </div>
+        </aside>        
+      </div>
+    </div>
+  </main>
+  <!--Футер-->
+  <footer>
+    <div class="container"></div>
+  </footer>
 <!-- <!-- Testimonial section -->
 <!-- ================================================== --> 
 <!-- <section id="testimonial" class="parallax-section"> -->
