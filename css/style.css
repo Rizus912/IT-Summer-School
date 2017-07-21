@@ -164,19 +164,40 @@ p {
 }
 
 #home .btn {
-  background: #000000;
-  border-color: transparent;
+border-radius: 50px;
+  border: 2px solid #ffffff; /* Параметры рамки */
+  background: none;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 25px;
   font-weight: bold;
-  padding: 14px 52px;
+  padding: 14px 30px;
   margin-top: 40px;
   transition: all 0.4s ease-in-out;
 }
 
 #home .btn:hover {
   background: #ffa400;
+ border-color:#ffa400;
+ color:#000000;
 }
+#home .VK {
+border-radius: 50px;
+  border: 2px solid #ffffff; /* Параметры рамки */
+  background: none;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 14px 30px;
+  margin-top: 40px;
+  transition: all 0.4s ease-in-out;
+}
+
+#home .VK:hover {
+  background: #507299;
+ border-color:#507299;
+ color:#ffffff;
+}
+
 
 
 /* testimonial section styles
@@ -454,4 +475,15 @@ footer a:hover {
   #home h5 {
     font-size: 9px;
   }
+
+.BTpoznanie
+{
+color:black;
+transition: 1s;
+border-radius: 50px;
+background-color:none;
+} 
+#h1:hover{
+	background-color:yelow;	
 }
+
