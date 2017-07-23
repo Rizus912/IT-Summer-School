@@ -133,4 +133,11 @@ $(document).ready(function() {
   new WOW({ mobile: false }).init();
 
   });
+  
+  if ($.browser.msie && parseInt($.browser.version) < 9) 
+    $('html').css('overflow', 'auto');
+//Нужно проверить скрипт уже на странице так как скрытие скрола везде не совсем правильное решение
+$('body').css('overflow', 'auto');
+
+$('.waffle').css('border', 'none !important');
 
