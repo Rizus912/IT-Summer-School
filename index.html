@@ -654,7 +654,55 @@ http://www.tooplate.com/view/2077-modern-town
 	</div>
 </section>
 
-  
+  <p><code><samp>
+#define OBT 12
+
+boolean OBWU = true;
+int OKlick = 0; 
+
+void setup() {
+      pinMode( 1 , OUTPUT );
+      pinMode( 2 , OUTPUT );
+      pinMode( 3 , OUTPUT );
+      pinMode( 4 , OUTPUT );
+      pinMode( 5 , OUTPUT );
+      pinMode( OBT , INPUT_PULLUP );
+}
+
+void loop() {
+  boolean OBIU = digitalRead( OBT );
+  if ( OBWU && !OBIU )
+  {
+    delay(10);
+    OBIU = digitalRead( OBT );
+    if ( !OBIU )
+    {
+      OKlick=OKlick+1;
+         if ( OKlick == 11 )
+         { OKlick = 0; }
+          analogWrite( 1 , 0 );
+          analogWrite( 2 , 0 );
+          analogWrite( 3 , 0 );
+          analogWrite( 4 , 0 );
+          analogWrite( 5 , 0 );
+          for (int i = 0 ; i <= (OKlick / 2) ; i++ )
+          {
+          analogWrite( i , 255 );
+          }
+    }
+    }
+OBWU=OBIU;
+          if ( OKlick % 2 == 1 )
+          {
+             analogWrite( OKlick / 2 + 1 , 255 );
+             delay(1); 
+             analogWrite( OKlick / 2 + 1  , 0 );
+             delay(12);
+          } 
+}
+</samp>
+</code>
+</p>
   <!-- Javascript 
 ================================================== -->
 <script src="js/jquery.js"></script>
